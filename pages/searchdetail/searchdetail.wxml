@@ -1,0 +1,81 @@
+<view class="top">
+	<view class="top-first">
+		<image src="{{imageURL}}"></image>
+	</view>
+
+	<view class="center flex">
+		<view class="center-first flex">
+			<view class="tu">
+				<image src="../../imgs/hous.png"></image>
+			</view>
+			<view class="zi">{{guige}}平方米</view>
+		</view>
+		<view class="center-second flex">
+			<view class="tu">
+				<image src="../../imgs/wifi.png"></image>
+			</view>
+			<view class="zi">{{pmswifi}}</view>
+		</view>
+	</view>
+
+	<view class="center flex">
+		<view class="center-first flex">
+			<view class="tu">
+				<image src="../../imgs/chuang.png"></image>
+			</view>
+			<view class="zi">{{renshu}}人</view>
+		</view>
+		<view class="center-second flex">
+			<view class="tu">
+				<image src="../../imgs/chuang.png"></image>
+			</view>
+			<view class="zi">{{chuangguige}}米</view>
+		</view>
+	</view>
+</view>
+
+
+<view class="cancle">
+	限时取消
+</view>
+
+<view class="bottom">
+	取消规则:订单生效前均可取消
+</view>
+
+<view style="background-color: #000000;height:1px;margin-top:16rpx">
+
+</view>
+
+<view class="cancle">
+	预定说明
+</view>
+
+<view class="bottom">
+	如需开发票，请向前台索取
+</view>
+
+<view style="background-color: #000000;height:1px;margin-top:16rpx">
+
+</view>
+
+<view class="cancle">
+	使用规则
+</view>
+<view class="bottom">
+	直接消费
+</view>
+<view class="bottom">
+	请在订单生效前入住，在规定时间退房
+</view>
+<view style="background-color: #000000;height:1px;margin-top:16rpx">
+
+</view>
+<view class="bbb flex">
+  <view class="bbprice">￥{{price}}</view>
+  <view bindtap="zhifou" class="bbbtn">支付</view>
+  <view bindtap="dinggou" class="bbbtn">预定</view>
+  <view bindtap="tuifang" class="bbbtn">退房</view>
+</view>
+
+<van-notify id="van-notify" />

@@ -1,0 +1,85 @@
+page{
+  background-color: #f7f7f7;
+}
+
+.top{
+  width: 100%;
+}
+
+.top .top-first image{
+  height: 350rpx;
+  width: 100%;
+}
+
+.center{
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 15rpx;
+}
+
+.center-first{
+  margin-left: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-first image{
+  height: 80rpx;
+  width: 80rpx;
+}
+
+.zi{
+  font-size: 32rpx;
+}
+
+.center-second{
+  margin-right: 28%;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-second image{
+  height: 80rpx;
+  width: 80rpx;
+}
+
+.cancle{
+  margin-top: 28rpx;
+  font-size: 38rpx;
+  font-weight: bold;
+  font-style: inherit;
+}
+
+.bottom{
+  margin-top: 23rpx;
+  font-size: 28rpx;
+}
+
+.bbb{
+  margin-top: 20rpx;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bbb .bbprice{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  font-weight: bold;
+  font-style: 36rpx;
+  width: 90rpx;
+  height: 100rpx;
+}
+
+.bbb .bbbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15%;
+  font-weight: bold;
+  font-style: 36rpx;
+  width: 200rpx;
+  height: 90rpx;
+  background-color: yellow;
+}

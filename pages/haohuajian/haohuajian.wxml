@@ -1,0 +1,9 @@
+<view wx:for="{{list}}">
+	<view bindtap="detail" data-id="{{index}}">
+    <van-card price="{{item.price}}" desc="{{item.descc}}" title="{{item.title}}" thumb="{{ item.imageURL }}">
+		<view slot="footer">
+			<view class="btn">{{item.codec === 0 ? '没人':'有人'}}</view>
+		</view>
+	</van-card>
+  </view>
+</view>

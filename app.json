@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/login/login",
+    "pages/car/car",
+    "pages/mine/mine",
+    "pages/danrenjian/danrenjian",
+    "pages/shuangrenjian/shuangrenjian",
+    "pages/shangwujian/shangwujian",
+    "pages/biaozhunjian/biaozhunjian",
+    "pages/wifi/wifi",
+    "pages/haohuajian/haohuajian",
+    "pages/canting/canting",
+    "pages/jiudianxinxi/jiudianxinxi",
+    "pages/shoppms/shoppms",
+    "pages/detail/detail",
+    "pages/searchdetail/searchdetail",
+    "pages/Minfo/my_information/my_information",
+    "pages/Minfo/addHole/addHole",
+    "pages/addpms/addpms"
+  ],
+
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+
+  "usingComponents": {
+    "van-search": "/components/vant/search/index",
+    "van-card": "/components/vant/card/index",
+    "van-tab": "/components/vant/tab/index",
+    "van-tabs": "/components/vant/tabs/index",
+    "van-notify": "/components/vant/notify/index",
+    "van-picker": "/components/vant/picker/index",
+    "van-popup": "/components/vant/popup/index",
+    "van-button": "/components/vant/button/index"
+  },
+
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "PMS大酒店",
+    "backgroundColor": "#FAFA46",
+    "backgroundTextStyle": "light"
+  },
+
+  "tabBar": {
+    "color": "4c1fdf",
+    "selectedColor": "8a8a8a",
+    "list": [{
+        "pagePath": "pages/first/first",
+        "text": "首页",
+        "iconPath": "imgs/first.png",
+        "selectedIconPath": "imgs/first1.png"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "text": "订单",
+        "iconPath": "imgs/dingdan1.png",
+        "selectedIconPath": "imgs/dingdan.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "imgs/mine.png",
+        "selectedIconPath": "imgs/mine1.png"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

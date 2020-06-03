@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的个人信息",
+  "navigationBarBackgroundColor": "#FAFA46",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "van-popup": "/components/vant/popup/index"
+  }
+  
+}

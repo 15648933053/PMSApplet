@@ -1,0 +1,15 @@
+<view>
+  <view class="view_img">
+    <image src="http://img3.imgtn.bdimg.com/it/u=2610698448,2909030611&fm=26&gp=0.jpg"></image>
+  </view>
+
+  <view class="view_msg">
+    <view class="text_msg">
+      <text class="text_title">WiFi已被覆盖</text>
+      <text class="text_body">WiFi名称：hotel</text>
+      <text class="text_body">WiFi密码：12345678</text>
+    </view>
+  </view>
+
+
+</view>

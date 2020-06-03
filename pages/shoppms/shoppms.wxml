@@ -1,0 +1,25 @@
+<view class="top">
+	<view class="first flex">
+		<view class="left">
+			{{addressName}}
+			<!-- 呼和浩特 -->
+		</view>
+		<view class="right" bindtap="getLoName">
+			<image src="../../imgs/1.png"></image>
+		</view>
+	</view>
+	<view class="second flex">
+		<van-search label="酒店" placeholder="请输入搜索关键词" use-action-slot bind:change="onchange">
+			<view slot="action" bind:tap="onClick">搜索</view>
+		</van-search>
+	</view>
+	<view class="third">
+		<view class="zi">酒店排行榜：</view>
+		<view wx:for="{{list}}" class="third-first flex">
+			<view>
+				<image src="{{item.imageURL}}"></image>
+				<view>房间号：{{item.title}}</view>
+			</view>
+		</view>
+	</view>
+</view>

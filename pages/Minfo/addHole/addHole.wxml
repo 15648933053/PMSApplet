@@ -1,0 +1,40 @@
+<view bindtap="add" class="back">
+	<view class="addfont iconfont icontianjia" bindtap="add"></view>
+</view>
+
+
+<view class="pms flex">
+	<view class="serch">
+		<view class="serch-else" bindtap="addhole">
+			<text>修改wifi名称</text>
+			<view class="in">
+				<input value="{{wifiname}}" bindinput="inputwifiname"></input>
+			</view>>
+		</view>
+	</view>
+
+
+	<view class="serch">
+		<view class="serch-else" bindtap="call">
+			<text>修改酒店名称</text>
+			<view class="in">
+				<input value="{{holename}}" bindinput="inputpmsname"></input>
+			</view>>
+		</view>
+	</view>
+
+
+	<view class="serch">
+		<view class="serch-else" bindtap="call">
+			<text>修改酒店电话</text>
+			<view class="in">
+				<input value="{{phone}}" bindinput="inputphone"></input>
+			</view>>
+		</view>
+	</view>
+
+  <van-button bind:click="updatepms" plain color="#FAFA46" type="primary">确定修改</van-button>
+
+</view>
+
+<van-notify id="van-notify" />

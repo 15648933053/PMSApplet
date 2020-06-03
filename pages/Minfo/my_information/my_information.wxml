@@ -1,0 +1,43 @@
+<view class="sty">
+	<view class="imag" bindtap="image">
+		<image src="{{face_url}}"></image>
+	</view>
+
+	<view class="touxiang">
+		<view class="touxiang-else">
+			<text>我的昵称</text>
+			<input bindinput="inputname" placeholder="请你的输入昵称吧" value="{{username}}"></input>
+		</view>
+	</view>
+
+	<view class="touxiang">
+		<view class="touxiang-else">
+			<text>我的电话</text>
+			<input bindinput="inputphone" value="{{phone == 'null' ? '' : phone}}" placeholder="请输入你的手机号吧"></input>
+		</view>
+	</view>
+
+	<view class="touxiang">
+		<view class="touxiang-else">
+			<text>授权码</text>
+			<input bindinput="inputpassword" value="" placeholder="请输入管理员密码"></input>
+		</view>
+	</view>
+
+	<view class="touxiang">
+		<view class="touxiang-else">
+			<text>我的身份</text>
+			<view class="a cu-form-group margin-top">
+				<picker class="a" bindchange="PickerChange" value="{{indetify}}" range="{{picker}}">
+					<view class="picker">
+						{{picker[identify]}}
+					</view>
+				</picker>
+			</view>
+		</view>
+	</view>
+
+	<van-button plain block bind:click="xiugai" color="#FAFA46" type="primary">确定修改</van-button>
+</view>
+
+<van-notify id="van-notify" />

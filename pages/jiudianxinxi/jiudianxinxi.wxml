@@ -1,0 +1,59 @@
+<view class="top">
+	<view class="top-first">
+		<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590044587088&di=453ecdc7c2a789a6adc35ffd9b35af59&imgtype=0&src=http%3A%2F%2Fwww.ddyjdzx.com%2Fuploads%2Fallimg%2F170710%2F1-1FG009562XR.jpg"></image>
+	</view>
+</view>
+<view class="cancle">
+	{{holename}}
+</view>
+
+<view class="bottom">
+	经济型酒店，酒店可提供基础设施及服务
+</view>
+
+<view style="background-color: #000000;height:1px;margin-top:25rpx">
+
+</view>
+
+<view class="cancle">
+	设施服务
+</view>
+
+<view class="x flex">
+	<view>
+		<image src="../../imgs/tingche.png"></image>
+		<view>免费停车</view>
+	</view>
+	<view>
+		<image src="../../imgs/jiaoxing.png"></image>
+		<view>叫醒服务</view>
+	</view>
+	<view>
+		<image src="../../imgs/wifi.png"></image>
+		<view>无线上网</view>
+	</view>
+</view>
+
+<view style="background-color: #000000;height:1px;margin-top:25rpx">
+
+</view>
+
+<view class="cancle">
+	订房必读
+</view>
+<view class="bottom">
+	入住时间：14：00以后
+	离店时间：14：00以前
+</view>
+<view class="bottom">
+	不可携带宠物
+</view>
+
+<view class="bottom">
+	联系电话：{{phone}}
+</view>
+<view style="background-color: #000000;height:1px;margin-top:16rpx">
+
+</view>
+
+<van-notify id="van-notify" />

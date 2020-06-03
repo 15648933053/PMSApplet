@@ -1,0 +1,16 @@
+<van-tabs active="{{ active }}" bind:change="onChange">
+	<van-tab title="全部单">
+	</van-tab>
+	<van-tab title="待支付">
+	</van-tab>
+</van-tabs>
+
+<view wx:for="{{list}}">
+	<view bindtap="detail" data-id="{{index}}">
+    <van-card price="{{item.price}}" desc="{{item.descc}}" title="{{item.title}}" thumb="{{ item.imageURL }}">
+		<view slot="footer">
+			<view class="btn">{{item.codec === 0 ? '没人':'有人'}}</view>
+		</view>
+	</van-card>
+  </view>
+</view>

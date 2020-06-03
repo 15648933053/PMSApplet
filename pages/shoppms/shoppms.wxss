@@ -1,0 +1,55 @@
+Page {
+  background-color: #f7f7f7;
+}
+
+.first {
+  background-color: #fff123;
+  width: 100%;
+  height: 230rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.first .left {
+  font-size: 20rpx;
+  margin-left: 36rpx;
+}
+
+.first .right image {
+  height: 68rpx;
+  margin-left:15rpx;
+  width: 75rpx;
+}
+
+.second {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 25rpx;
+  height: 180rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.third{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.third .third-first{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.third .third-first view image{
+  height: 200rpx;
+  width: 200rpx;
+}
+
+.zi{
+  font-size: 100rpx;
+}
+
+.btn{
+  font-size: 80rpx;
+}

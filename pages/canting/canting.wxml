@@ -1,0 +1,53 @@
+<view class="top">
+	<view class="top-first">
+		<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590041303750&di=77bd087d73d00f40b365b102c65865a0&imgtype=0&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D1024131371%2C1813939416%26fm%3D214%26gp%3D0.jpg"></image>
+	</view>
+</view>
+<view class="cancle">
+	预定说明
+</view>
+
+<view class="bottom">
+	预定规则:凡入住本酒店者可随时入住酒店
+</view>
+
+<view style="background-color: #000000;height:1px;margin-top:16rpx">
+
+</view>
+
+<view class="cancle">
+	限时取消
+</view>
+
+<view class="bottom">
+	取消规则........
+</view>
+
+<view style="background-color: #000000;height:1px;margin-top:16rpx">
+
+</view>
+
+<view class="cancle">
+	送餐
+</view>
+<view class="bottom">
+	本店全天可送餐
+</view>
+<view class="bottom">
+	凡入住本店豪华房客户均可免费享受送餐服务,
+	其他送餐需支付10元
+</view>
+
+<view class="bottom">
+	订餐一律提供本店固定早、中、晚餐，
+	如需额外订购请联系前台
+</view>
+<view style="background-color: #000000;height:1px;margin-top:16rpx">
+
+</view>
+<view class="bbb flex">
+	<view class="bbprice">￥10</view>
+	<view bindtap="dinggou" class="bbbtn">预定</view>
+</view>
+
+<van-notify id="van-notify" />

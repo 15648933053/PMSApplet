@@ -1,0 +1,32 @@
+.view_msg{
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.view_msg .text_msg{
+  border: 2px solid red;
+  width: 99%;
+  background-image: url("http://static.yehuzi.com/blog/2020/01/capella/capella-office-5.jpg");
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.view_msg .text_msg .text_title{
+  height: 50%;
+  font-size: 50px;
+  color: rgba(3, 221, 236, 0.801);
+}
+
+.view_msg .text_msg .text_body{
+  height: 120px;
+  font-size: 30px;
+  color: #28ff20;
+}

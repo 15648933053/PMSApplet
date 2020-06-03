@@ -1,0 +1,80 @@
+/* pages/home/home.wxss */
+.title{
+  color: red;
+  font-size: 30px;
+}
+swiper, swiper image{
+  width:100%;
+  height: 600rpx; 
+}
+
+/* pages/home/home.wxss */
+.title{
+  color: red;
+  font-size: 30px;
+}
+swiper, swiper image{
+  width:vw;
+  height: 450rpx; 
+}
+
+
+.menu{
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+.menu .menutext{
+  width: 21vw;
+  height: 21vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu .menutext .cen image{
+  height: 70rpx;
+  width: 75%;
+}
+.menu .menutext .cen text{
+  width: 21vw;
+  height: 21vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.center{
+  width: 100%;
+  height: 50rpx;
+}
+
+.center .image image{
+  width: 94%;
+  border-radius: 20rpx;
+  height: 115rpx;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.btnb{
+  width: 100%;
+}
+
+.bootom{
+  display: flex;
+  margin-top: 200rpx;
+  height: 80rpx;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: yellow;
+  border-radius: 20rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  font-size: large;
+  font-weight: bolder;
+}
+

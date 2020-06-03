@@ -1,0 +1,65 @@
+<view class="sty">
+	<view class="touxiang">
+		<view class="touxiang-else">
+			<text>房间类型</text>
+			<view class="a cu-form-group margin-top">
+				<picker class="a" bindchange="PickerChange" value="{{idd}}" range="{{picker}}">
+					<view class="picker">
+						{{picker[idd]}}
+					</view>
+				</picker>
+			</view>
+		</view>
+	</view>
+
+	<view class="touxiang">
+		<view class="touxiang-else">
+			<text>房间照片</text>
+			<input bindtap="image" bindinput="inputname" placeholder="点击上传房间照片"></input>
+		</view>
+	</view>
+
+	<view class="touxiang">
+		<view class="touxiang-else">
+			<text>房间价格</text>
+			<input bindinput="inputprice" value="{{}}" placeholder="请输入该房间的价格"></input>
+		</view>
+	</view>
+
+	<view class="touxiang">
+		<view class="touxiang-else">
+			<text>房间编号</text>
+			<input bindinput="inputtitle" value="" placeholder="请输入该房间的编号"></input>
+		</view>
+	</view>
+
+	<view class="touxiang">
+		<view class="touxiang-else">
+			<text>房间规格</text>
+			<input bindinput="inputguige" value="" placeholder="请输入该房间规格，填入0~100数字"></input>
+		</view>
+	</view>
+
+	<view class="touxiang">
+		<view class="touxiang-else">
+			<text>房间人数</text>
+			<input bindinput="inputrenshu" value="" placeholder="请输入该房间所容纳的人数"></input>
+		</view>
+	</view>
+
+  <view class="touxiang">
+		<view class="touxiang-else">
+			<text>房间wifi</text>
+			<input bindinput="inputwifi" value="" placeholder="请输入该房间WIFI密码"></input>
+		</view>
+	</view>
+
+   <view class="touxiang">
+		<view class="touxiang-else">
+			<text>床的规格</text>
+			<input bindinput="inputchaungguige" value="" placeholder="请输入该房间床的规格"></input>
+		</view>
+	</view>
+
+	<van-button plain block bind:click="add" color="#FAFA46" type="primary">确定添加</van-button>
+</view>

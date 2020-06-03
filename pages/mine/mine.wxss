@@ -1,0 +1,96 @@
+/**index.wxss**/
+page{
+  background-color: #f7f7f7;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(250, 250, 70);
+  width: 100%;
+  height: 260rpx;
+  margin-top: 0.1rpx;
+}
+.people{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 160rpx;
+  margin-top: 8rpx;
+  justify-content: space-between;
+}
+.people-else{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  width: 100%;
+  height: 100rpx;
+  margin-top: 17rpx;
+  margin-bottom: 17rpx;
+  justify-content: space-between;
+}
+.serch{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 150rpx;
+  margin-top: 16rpx;
+  justify-content: space-between;
+}
+.serch-else{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  width: 100%;
+  height: 100rpx;
+  margin-top: 17rpx;
+  margin-bottom: 17rpx;
+  justify-content: space-between;
+  font-size: 56rpx;
+}
+
+.userinfo-avatar {
+  width: 164rpx;
+  height: 164rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+}
+
+.xiugai{
+  font-size: 28rpx;
+  padding-left: 52rpx;
+  padding-top: 28rpx;
+  color:#9999FF;
+}
+
+.userinfo-nickname {
+  padding-left: 52rpx;
+  font-size: 48rpx;
+  color:#9999FF;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.navigator-hover {
+  color:rgb(207, 204, 204);
+}
+.other-navigator-hover {
+  color:red;
+}

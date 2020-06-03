@@ -1,0 +1,47 @@
+<swiper indicator-dots="true" autoplay="true" interval="2000" circular="true" indicator-color="#ccc" indicator-active-color="#fff">
+	<swiper-item>
+		<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585485123767&di=e54702623beb86fd85096ad565a16c73&imgtype=0&src=http%3A%2F%2Fwww.868e.com%2FHotelImg%2F2013%2F12%2F7%2F6352197551737276671.jpg"></image>
+	</swiper-item>
+
+	<swiper-item>
+		<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585485123762&di=7a40ae53759d9d8ddb24de8ea9851b62&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn22%2F275%2Fw1080h795%2F20180514%2F89dd-hapkuvk7200139.jpg"></image>
+	</swiper-item>
+
+	<swiper-item>
+		<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585485123760&di=d8a041306d560b6a8cff577911ca637d&imgtype=0&src=http%3A%2F%2Fimg006.hc360.cn%2Fhb%2FdD8bc50de091336659429d96b460072eAA.jpg"></image>
+	</swiper-item>
+
+	<swiper-item>
+		<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585485155779&di=7c01ca1a87eb668fa16882e9fbbe6850&imgtype=0&src=http%3A%2F%2Fimage2.3dxia.com%2F47159121_2.jpg"></image>
+	</swiper-item>
+
+	<swiper-item>
+		<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585485317945&di=7ebd7d6bbc3d105cbc8315eca314b24c&imgtype=0&src=http%3A%2F%2Fstatic-xiaoguotu.17house.com%2Fxgt%2Ft%2F22%2F1462372836144.jpg"></image>
+	</swiper-item>
+
+</swiper>
+
+<view class="menu flex">
+	<view class="menutext" wx:for="{{hotel}}" wx:key="index">
+		<view class="cen" data-id="{{index}}" bindtap="Todetial">
+			<image src="{{item.icon}}"></image>
+			<view class="text">
+				{{item.text}}
+			</view>
+		</view>
+	</view>
+</view>
+
+
+<view class="center">
+	<view class="image">
+		<image src="http://picnew8.photophoto.cn/20140901/fangchanhengdangshejitupian-16996556_1.jpg"></image>
+		<image src="http://picnew8.photophoto.cn/20140901/fangchanhengdangshejitupian-16996556_1.jpg"></image>
+	</view>
+</view>
+
+<view bindtap="selPSM" class="btnb">
+	<view class="bootom">
+		<view class="btn">查询酒店</view>
+	</view>
+</view>
